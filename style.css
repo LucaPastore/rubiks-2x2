@@ -1,0 +1,138 @@
+.base{
+    height: 900px;
+    background-color: aquamarine;
+}
+.left{
+    position:absolute;
+    display: inline-block;
+    top: 30%;
+    left: 20%;
+    background-color: azure;
+}
+
+.right{
+    display: inline-block;
+    top: 30%;
+    left: 80%;
+    position:absolute;
+    background-color: azure;
+}
+
+.up{
+    position:absolute;
+    display: inline-block;
+    top: 10%;
+    left: 50%;
+    background-color: azure;
+}
+
+.down{
+    display: inline-block;
+    top:80%;
+    left: 50%;
+    position:absolute;
+    background-color: azure;
+}
+
+.front{
+    position:absolute;
+    display: inline-block;
+    top: 5%;
+    left: 80%;
+    background-color: azure;
+}
+
+.back{
+    display: inline-block;
+    top: 10%;
+    left: 80%;
+    position:absolute;
+    background-color: azure;
+}
+
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 10%;
+}
+
+.face{
+    position: absolute;
+}
+
+.tile{
+    float: left;
+    border: solid black 1px;
+}
+
+#div0{
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 100px;
+}
+#div0 div{
+    width: 98px;
+    height: 98px;
+}
+
+#div1{
+    width: 100px;
+    height: 200px;
+    top: 100px;
+    left: 300px;
+    transform: skewY(-45deg);
+}
+#div1 div{
+    width: 48px;
+    height: 98px;
+}
+
+#div2{
+    width: 200px;
+    height: 100px;
+    top: 50px;
+    left: 150px;
+    transform: skewX(-45deg);
+}
+#div2 div{
+    width: 98px;
+    height: 48px;
+}
+
+[color=c0]{
+    background-color: yellow;
+}
+[color=c1]{
+    background-color: orange;
+}
+[color=c2]{
+    background-color: blue;
+}
+[color=c3]{
+    background-color: red;
+}
+[color=c4]{
+    background-color: green;
+}
+[color=c5]{
+    background-color: white;
+}
+
+#result{
+    background-color: brown;
+    width: 220px;
+}
+
+#actions{
+    margin: 10px;
+}
+
+#actions button {
+    width: 100px;
+    height: 50px;
+}

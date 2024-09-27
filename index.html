@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="base">
+        <div id="result">
+            <h1>SOLVED: <span id="solved"></span></h1>
+        </div>
+        <div id="actions">
+            <button onclick="shuffle()">Mischia</button>
+            <button onclick="solve()">Risolvi</button>
+        </div>
+        <div class="left">
+            <button onclick="l()">L</button>
+            <button onclick="l1()">L 1</button>
+        </div>
+        <div class="right">
+            <button onclick="r()">R</button>
+            <button onclick="r1()">R 1</button>
+        </div>
+
+        <div class="up">
+            <button onclick="u()">U</button>
+            <button onclick="u1()">U 1</button>
+        </div>
+        <div class="down">
+            <button onclick="d()">D</button>
+            <button onclick="d1()">D 1</button>
+        </div>
+
+        <div class="front">
+            <button onclick="f()">F</button>
+            <button onclick="f1()">F 1</button>
+        </div>
+        <div class="back">
+            <button onclick="b()">B</button>
+            <button onclick="b1()">B 1</button>
+        </div>
+
+        <div class="container">
+            <div id="div0" class="face">
+                <div class="tile" color="c0" id="00"></div>
+                <div class="tile" color="c0" id="01"></div>
+                <div class="tile" color="c0" id="02"></div>
+                <div class="tile" color="c0" id="03"></div>
+            </div>
+            <div id="div1" class="face">
+                <div class="tile tile1" color="c1" id="10"></div>
+                <div class="tile tile1" color="c1" id="11"></div>
+                <div class="tile tile1" color="c1" id="12"></div>
+                <div class="tile tile1" color="c1" id="13"></div>
+            </div>
+            <div id="div2" class="face">
+                <div class="tile" color="c2" id="20"></div>
+                <div class="tile" color="c2" id="21"></div>
+                <div class="tile" color="c2" id="22"></div>
+                <div class="tile" color="c2" id="23"></div>
+            </div>
+            <div id="div3" class="face" style="display: none;">
+                <div class="tile" color="c3" id="30"></div>
+                <div class="tile" color="c3" id="31"></div>
+                <div class="tile" color="c3" id="32"></div>
+                <div class="tile" color="c3" id="33"></div>
+            </div>
+            <div id="div4" class="face" style="display: none;">
+                <div class="tile" color="c4" id="40"></div>
+                <div class="tile" color="c4" id="41"></div>
+                <div class="tile" color="c4" id="42"></div>
+                <div class="tile" color="c4" id="43"></div>
+            </div>
+            <div id="div5" class="face" style="display: none;">
+                <div class="tile" color="c5" id="50"></div>
+                <div class="tile" color="c5" id="51"></div>
+                <div class="tile" color="c5" id="52"></div>
+                <div class="tile" color="c5" id="53"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
